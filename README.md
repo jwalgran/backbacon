@@ -1,4 +1,3 @@
-backbacon
-=========
+# backbacon
 
-Get bacon.js event streams from Backbone models
+Get [bacon.js](https://github.com/raimohanska/bacon.js?) event streams from [Backbone](http://backbonejs.org) models
