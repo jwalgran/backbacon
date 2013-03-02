@@ -1,0 +1,27 @@
+{
+  "name": "backbacon",
+  "description": "Get bacon.js event streams from Backbone models",
+  "version": "0.1.0",
+  "repository": {
+    "url": "git://github.com/jwalgran/backbacon.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "backbone": "~0.9.10",
+    "baconjs": "~0.1.7"
+  },
+  "devDependencies": {
+    "tap": "~0.4.0",
+    "tape": "~0.2.2",
+    "grunt": "~0.4.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-copy": "~0.4.0",
+    "grunt-contrib-jshint": "~0.2.0",
+    "grunt-contrib-uglify": "~0.1.2",
+    "browserify": "~2.4.0"
+  },
+  "license": "MIT"
+}

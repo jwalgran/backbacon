@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+
+<script type="text/javascript" src="node_modules/backbone/node_modules/underscore/underscore.js"></script>
+<script type="text/javascript" src="node_modules/backbone/backbone.js"></script>
+<script type="text/javascript" src="node_modules/baconjs/dist/Bacon.js"></script>
+<script type="text/javascript" src="dist/backbacon.js"></script>
+
+</script>
+<script type="text/javascript">
+    Person = Backbone.Model.extend({});
+    p = new Person();
+    ageChange = p.asEventStream('change:age');
+    ageChangeIds = ageChange.map('.cid');
+    ageChangeIds.onValue(function(cid) { alert('This model change event from model ' + cid + ' arrived through bacon.js'); });
+    p.set('age', 34);
+</script>
+
+</body>
+</html>
