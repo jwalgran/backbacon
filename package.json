@@ -23,5 +23,15 @@
     "grunt-contrib-uglify": "~0.1.2",
     "browserify": "~2.4.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "testling": {
+    "files": "test.js",
+    "browsers": {
+      "ie": [ 8, 9 ],
+      "firefox": [ 13 ],
+      "chrome": [ 20 ],
+      "safari": [ 5.1 ],
+      "opera": [ 12 ]
+    }
+  }
 }
