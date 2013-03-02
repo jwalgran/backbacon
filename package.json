@@ -1,7 +1,7 @@
 {
   "name": "backbacon",
   "description": "Get bacon.js event streams from Backbone models",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": {
     "url": "git://github.com/jwalgran/backbacon.git"
   },
@@ -27,13 +27,29 @@
   "testling": {
     "files": "test.js",
     "browsers": {
-      "ie": [ 7, 8, 9 ],
-      "firefox": [ 13 ],
-      "chrome": [ 20 ],
-      "safari": [ 5.1 ],
-      "opera": [ 12 ],
-      "iphone": [6.0],
-      "ipad": [6.0]
+      "ie": [
+        7,
+        8,
+        9
+      ],
+      "firefox": [
+        13
+      ],
+      "chrome": [
+        20
+      ],
+      "safari": [
+        5.1
+      ],
+      "opera": [
+        12
+      ],
+      "iphone": [
+        6
+      ],
+      "ipad": [
+        6
+      ]
     }
   }
 }
